@@ -14,10 +14,10 @@
                 "date": "Jul 9",
                 "destination": "OSL",
                 "confirmation": "314159265",
-                "origin": "OSL"
+                "origin": "LHR"
             }
         ],
-        "accomodation": [
+        "accommodation": [
             {
                 "startDate": "Jul 2",
                 "endDate": "Jul 9",

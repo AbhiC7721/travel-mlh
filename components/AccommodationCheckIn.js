@@ -5,7 +5,7 @@ export default function Flight({startDate, checkInTime, name, address}) {
    <>
         <InformationContainer
           icon="🏨"
-          upperDescription={`${startDate} ${checkInTime}`}
+          upperDescription={`Check In: ${startDate} ${checkInTime}`}
           lowerDescription={`${name}, ${address}`}
         />
     </> 

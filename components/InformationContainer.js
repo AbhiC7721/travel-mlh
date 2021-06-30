@@ -15,6 +15,7 @@ export default function InformationContainer({icon, upperDescription, lowerDescr
                     background: #f2f8fb;
                     border-radius: 8px;
                     padding: 10px;
+                    grid-template-column: 40px auto;
                 }
                 .icon {
                     grid-area: icon;
