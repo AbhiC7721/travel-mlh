@@ -1,12 +1,13 @@
 import Flight from "./Flight";
 import AccommodationCheckIn from "./AccommodationCheckIn";
 import Restaurant from "./Restaurant";
-import AccommodationCheckOut from "./AccommodationCheckOut";
+import AccommodationCheckOut from "./AccomodationCheckOut";
 
 export default function Itinerary({itinerary}) {
     return (
         <>
             <div className="itinerary">
+                <h2>Flights</h2>
                 {itinerary.flights.map(flight => (
                     <Flight
                         departureTime={flight.departureTime}
@@ -18,6 +19,7 @@ export default function Itinerary({itinerary}) {
                     />
                 ))}
 
+                <h2>Accomodation</h2>
                 {itinerary.accommodation.map(place => (
                     <AccommodationCheckIn
                         startDate={place.startDate}
@@ -36,6 +38,7 @@ export default function Itinerary({itinerary}) {
                     />
                 ))}
 
+                <h2>Restaurant</h2>
                 {itinerary.restaurants.map(restaurant => (
                     <Restaurant
                         time={restaurant.time}

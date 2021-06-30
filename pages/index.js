@@ -20,7 +20,7 @@ export default function Home() {
 
             <footer>
           <span>
-            Powered by{' '}<a href="https://robbie.dev" target="_blank" rel="noreferrer">Robbie from MLH</a>.
+            Powered by{' '}<a href="https://profile-abhinaba.netlify.app/" target="_blank" rel="noreferrer">Abhinaba from India</a>.
           </span>
             </footer>
 
