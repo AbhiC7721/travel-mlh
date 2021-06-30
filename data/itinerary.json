@@ -5,16 +5,16 @@
                 "departureTime": "06:50",
                 "arrivalTime": "09:20",
                 "date": "Jul 2",
-                "destination": "OSL",
-                "origin": "CCU"
+                "origin": "LHR",
+                "destination": "OSL"
             },
             {
                 "departureTime": "18:45",
                 "arrivalTime": "21:15",
                 "date": "Jul 9",
                 "destination": "OSL",
-                "origin": "CCU",
-                "confirmation": "314159265"
+                "confirmation": "314159265",
+                "origin": "OSL"
             }
         ],
         "accomodation": [
