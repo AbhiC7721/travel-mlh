@@ -29,13 +29,12 @@
                 "confirmation": "ty1234789yt410"
             }
         ],
-        "activities": [
+        "restaurants": [
             {
-                "type": "restaurant",
                 "time": "19:00",
                 "date": "Jul 4",
                 "name": "Palace Grill",
-                "address": "Solligata 20254 Oslo, Norway",
+                "address": "Solligata 2, 0254 Oslo, Norway",
                 "confirmation": "99900022"
             }
         ]
